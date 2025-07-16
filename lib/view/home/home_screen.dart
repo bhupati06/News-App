@@ -120,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         color: Colors.blue,
                                       ),
                                     ),),
-                                    errorWidget: (context, url  ,error) => Icon(Icons.error_outline ,color: Colors.red,),
+                                      errorWidget: (context, url  ,error) => Icon(Icons.error_outline ,color: Colors.red,),
                                   ),
                                 ),
                                 Expanded(
